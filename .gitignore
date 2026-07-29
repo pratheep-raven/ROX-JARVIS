@@ -1,0 +1,40 @@
+﻿# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environments
+.venv/
+.venv-agent/
+venv/
+env/
+
+# Secrets
+.env
+.env.*
+*.key
+*.pem
+secrets.json
+
+# Backup folders
+backup-basic-jarvis/
+backups/
+
+# VS Code and Windows
+.vscode/
+.idea/
+Thumbs.db
+desktop.ini
+
+# Generated files
+logs/
+*.log
+screenshots/
+recordings/
+build/
+dist/
+release/
+models/
+*.gguf
+*.onnx
